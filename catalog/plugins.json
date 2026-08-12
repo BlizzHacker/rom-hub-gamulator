@@ -1,0 +1,28 @@
+{
+  "catalog_version": "1",
+  "updated": "2026-08-12",
+  "plugins": [
+    {
+      "slug": "gamulator",
+      "name": "Gamulator",
+      "author": "MoveWeight",
+      "repository": "https://git.moveweight.com/BlizzHacker/romarr-plugin-gamulator",
+      "install": "https://git.moveweight.com/BlizzHacker/romarr-plugin-gamulator",
+      "download": "https://git.moveweight.com/BlizzHacker/romarr-plugin-gamulator/archive/v0.1.0.tar.gz",
+      "version": "0.1.0",
+      "ref": "v0.1.0",
+      "updated": "2026-08-12",
+      "rpp_version": "1",
+      "capabilities": [],
+      "platforms": [],
+      "network": ["gamulator.com"],
+      "status": "broken",
+      "search_only": false,
+      "key_required": false,
+      "in_tree": false,
+      "description": "NOT INSTALLABLE. The site is down: gamulator.com returns NXDOMAIN and www.gamulator.com returns HTTP 530 error 1016 (Cloudflare 'Origin DNS error') on every path.",
+      "terms": "This repository records a survey finding. It fetches, indexes and redistributes nothing.",
+      "comments": "The apex has no address record of any kind. The www host resolves only to Cloudflare edge IPs (104.26.8.39, 104.26.9.39, 172.67.68.38) and every path -- /, /roms and /robots.txt -- answers 530/1016, meaning the edge still holds a config for the hostname but the origin it proxies to no longer resolves. Nothing was observable, so nothing about the site's structure is recorded or guessed. Recommend dropping from the target list."
+    }
+  ]
+}
