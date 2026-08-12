@@ -48,7 +48,7 @@ keeping its catalogue — it is a hostname whose origin is gone.
 **Recommendation: drop Gamulator from the target list.**
 
 If it ever returns, the work is a straightforward clone of
-`romarr-plugin-retrostic`, which is the reference provider for this family —
+`rom-hub-retrostic`, which is the reference provider for this family —
 but the survey has to start from scratch, because nothing about the site's
 structure was observable and this repository guesses at none of it.
 
